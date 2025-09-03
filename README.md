@@ -102,6 +102,11 @@ Example: At the end of 2021, compare with 2020, and only insert records for acto
 - Ensure `actor_films` spans 1971–2021.
 - Incremental query assumes 2021 data in `actors`.
 
+## Resume Highlights:
+
+- **Built Dimensional Data Model:** Designed SQL-based `actors_history_scd` table and `actors` table for the `actor_films` dataset, enabling efficient performance analysis.  
+- **Implemented SCD Type 2:** Created backfill and incremental queries to track actor quality and activity changes (1971–2021) in PostgreSQL.  
+
 ## Output
 - Actors: summarizes each actor, their films, and yearly performance
   <img width="1130" height="687" alt="Screenshot 2025-09-03 at 11 33 23" src="https://github.com/user-attachments/assets/b6573f9a-524a-4d0f-a576-9cdedfc8c45e" />
