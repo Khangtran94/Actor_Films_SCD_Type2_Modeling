@@ -2,6 +2,8 @@
 
 Picture a vibrant film industry where actors' careers evolve, and we need to track their performances over decades. The `actor_films` dataset is our raw footage, packed with details about actors and their movies. This repository transforms it into a structured, analytical masterpiece using SQL, creating tables to analyze actors' current profiles and historical changes.
 
+<img width="2752" height="1536" alt="image" src="https://github.com/user-attachments/assets/6ddc6f5f-e76e-4d78-be0f-c5140c4703b2" />
+
 ## Project Overview
 
 - The `actor_films` dataset captures actors, films, and metrics like ratings and votes (from 1970 - 2021).
